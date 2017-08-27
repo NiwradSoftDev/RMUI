@@ -3,7 +3,7 @@ Remix Modern User Interface
 
 # DESCRIPTION
 The Modern UI provides a user interface for NSIS installers with a modern wizard style, similar to the wizards of recent Windows versions. It is based on the basic user interface that is provided by the NSIS compiler itself and extends it with more interface features and pages.
-Remix Modern User Interface mixes a NSIS MUI with native skinning functions
+Remix Modern User Interface mixes a NSIS MUI with native skinning functions.
 
 
 # LICENSE
