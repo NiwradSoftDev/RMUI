@@ -2,7 +2,7 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>NSIS Modern User Interface - Documentation</title>
+    <title>Remix Modern User Interface for NSIS - Documentation</title>
     <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
     <style type="text/css">
         /*<![CDATA[*/body
@@ -191,7 +191,7 @@
                         </div>
                     </div>
                     <h1>
-                        Modern UI 2.1</h1>
+                        Remix Modern UI 1.0</h1>
                     <div>
                         <p>
                             This new version makes it easier to customize pages, because the same method can
@@ -205,7 +205,7 @@
                         <p>
                             To upgrade a Modern UI 1.8 script, you should:</p>
                         <ul>
-                            <li>Insert the MUI2.nsh header file instead of MUI.nsh.</li>
+                            <li>Insert the RMUI2.nsh header file instead of MUI.nsh.</li>
                             <li>The macros for InstallOptions have been moved to a separate header file unrelated
                                 to the Modern UI. If you are still using InstallOptions for custom pages, insert
                                 InstallOptions.nsh and use the INSTALLOPTIONS_* macros instead of the MUI_INSTALLOPTIONS_*
@@ -235,7 +235,7 @@
                         <p>
                             First of all, add this line to the top of script to include the Modern UI:</p>
                         <pre>
-!include MUI2.nsh
+!include RMUI.nsh
 </pre>
                     </div>
                     <h2>
